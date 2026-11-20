@@ -124,9 +124,12 @@ cd bruschetta-restaurant-website
 
 Open `index.html` in your browser or use a local development server.
 
+##  Project Demonstration
 
-## 📷 Screenshots & Preview
-*** Demo: ***
+[▶️ Watch the Bruschetta Demo](demo/Screen Recording 2026-11-20 221906.mp4)
+
+##  Screenshots & Preview
+
 
 Bruschetta Homepage:
 ![Bruschetta Homepage](screenshots/homepage.png)
@@ -157,8 +160,8 @@ It also provides practical experience in designing and developing a user-oriente
 
 **Elaa Ben Othmen**
 
-- GitHub: [Your GitHub Profile](https://github.com/elaaabenothmen2)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/elaa-ben-othmen-7b993a2a4/)
+- GitHub: [elaaabenothmen2](https://github.com/elaaabenothmen2)
+- LinkedIn: [Elaa Ben Othmen](https://www.linkedin.com/in/elaa-ben-othmen-7b993a2a4/)
 
 ---
 
