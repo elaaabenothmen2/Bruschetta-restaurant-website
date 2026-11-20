@@ -126,7 +126,7 @@ Open `index.html` in your browser or use a local development server.
 
 ##  Project Demonstration
 
-[▶️ Watch the Bruschetta Demo](demo/Screen Recording 2026-11-20 221906.mp4)
+[ Watch the Bruschetta Demo](demo/Screen Recording 2026-11-20 221906.mp4)
 
 ##  Screenshots & Preview
 
