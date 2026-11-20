@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie Photos - Bruschetta</title>
+    <link rel="stylesheet" href="bruschetta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar section-content">
+        <a href="index.html" class="nav-logo">
+            <h2 class="logo-text">🍽 Bruschetta</h2>
+        </a>
+        <ul class="nav-menu">
+            <button id="menu-close-button" class="fas fa-times"></button>
+            <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+            <li class="nav-item"><a href="points-de-vente.html" class="nav-link">Points de Vente</a></li>
+            <li class="nav-item"><a href="galerie.html" class="nav-link">Galerie Photos</a></li>
+            <div class="buttons">
+                <div class="dropdown">
+                    <button class="hamburger-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="menu.html">Menu</a>
+                        <a href="plat.html">Choisir votre plat personnalisé</a>
+                    </div>
+                </div>
+            </div>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+</header>
+
+<main class="section-content" style="padding-top:120px;">
+    <div class="page-header">
+        <h1 class="page-title">Notre Galerie Photo</h1>
+        <p class="galerie-subtitle">Découvrez l'ambiance de notre restaurant et la qualité de nos plats italiens.</p>
+    </div>
+
+    <section class="photo-gallery">
+        <div class="photo-card"><img src="images/pic1.jpeg" alt="Pasta Cordon Bianco"><div class="photo-overlay"><p>Pasta Cordon Bianco</p></div></div>
+        <div class="photo-card"><img src="images/pic2.jpeg" alt="Tagliatelles à la burrata"><div class="photo-overlay"><p>Tagliatelles à la burrata</p></div></div>
+        <div class="photo-card"><img src="images/pic3.jpeg" alt="Poêlée de moules et crevettes"><div class="photo-overlay"><p>Poêlée de moules et crevettes</p></div></div>
+        <div class="photo-card"><img src="images/pic4.jpeg" alt="Pâtes Arrabiata"><div class="photo-overlay"><p>Pâtes Arrabiata</p></div></div>
+        <div class="photo-card"><img src="images/pic5.jpeg" alt="Pavé d'espadon à la sicilienne"><div class="photo-overlay"><p>Pavé d'espadon à la sicilienne</p></div></div>
+        <div class="photo-card"><img src="images/pic6.jpeg" alt="Salade Venezia"><div class="photo-overlay"><p>Salade Venezia</p></div></div>
+        <div class="photo-card"><img src="images/pic7.jpeg" alt="Salade Burrata"><div class="photo-overlay"><p>Salade Burrata</p></div></div>
+        <div class="photo-card"><img src="images/pic8.jpeg" alt="Salade César"><div class="photo-overlay"><p>Salade César</p></div></div>
+    </section>
+</main>
+
+<script src="bruschetta.js"></script>
+</body>
+</html>

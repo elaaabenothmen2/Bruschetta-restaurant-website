@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Points de Vente - Bruschetta</title>
+        <link rel="stylesheet" href="bruschetta.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar section-content">
+
+                <a href="index.html" class="nav-logo">
+                    <h2 class="logo-text">🍽 Bruschetta</h2>
+                </a>
+                <ul class="nav-menu">
+                    <button id="menu-close-button" class="fas fa-times"></button>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li class="nav-item"><a href="points-de-vente.html" class="nav-link">Points de Vente</a></li>
+                    <li class="nav-item"><a href="galerie.html" class="nav-link">Galerie Photos</a></li>
+                    <div class="buttons">
+                        <div class="dropdown">
+                            <button class="hamburger-btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="menu.html">Menu</a>
+                                <a href="plat.html">Choisir votre plat personnalisé</a>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+
+                <button id="menu-open-button" class="fas fa-bars"></button>
+            </nav>
+        </header>
+
+        <main class="section-content" style="padding-top:120px;">
+            <div class="page-header">
+                <h1 class="page-title">Choisir votre plat</h1>
+        </main>
+        <div class="quizz-body">
+            <h2>Quizz</h2>
+            <div class="quiz">
+                <p id="question">Quelle est ton humeur aujourd’hui ?</p>
+                <div id="answer-buttons">
+                    <button class="btn">😄 En pleine forme et joyeux(se)</button>
+                    <button class="btn">😌 Calme et zen</button>
+                    <button class="btn">😤 Stressé(e), besoin de réconfort</button>
+                    <button class="btn">😴 Fatigué(e), envie de quelque chose de simple</button>
+                    <button class="btn">🤩 Festif(ve), je veux un vrai festin !</button>
+                </div>
+                <div id="result-box" class="result-box hidden"></div>
+                <button id="next-btn">Suivant</button>
+            </div>
+        </div>
+        <script src="bruschetta.js"></script>
+    </body>
+</html>
